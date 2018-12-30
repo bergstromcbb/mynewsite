@@ -1,14 +1,14 @@
 {
-  "main.css": "/myapp/static/css/main.a85c2d6f.chunk.css",
-  "main.js": "/myapp/static/js/main.287688b6.chunk.js",
-  "main.js.map": "/myapp/static/js/main.287688b6.chunk.js.map",
-  "static/js/1.11951cc8.chunk.js": "/myapp/static/js/1.11951cc8.chunk.js",
-  "static/js/1.11951cc8.chunk.js.map": "/myapp/static/js/1.11951cc8.chunk.js.map",
-  "runtime~main.js": "/myapp/static/js/runtime~main.8dd91205.js",
-  "runtime~main.js.map": "/myapp/static/js/runtime~main.8dd91205.js.map",
-  "static/css/main.a85c2d6f.chunk.css.map": "/myapp/static/css/main.a85c2d6f.chunk.css.map",
-  "static/media/index.css": "/myapp/static/media/KGGirlOnFire.69a14def.ttf",
-  "index.html": "/myapp/index.html",
-  "precache-manifest.e0fe7c92031ed8f47da2e54d61aa6619.js": "/myapp/precache-manifest.e0fe7c92031ed8f47da2e54d61aa6619.js",
-  "service-worker.js": "/myapp/service-worker.js"
+  "main.css": "/mynewsite/static/css/main.b69d007c.chunk.css",
+  "main.js": "/mynewsite/static/js/main.a63ed5a9.chunk.js",
+  "main.js.map": "/mynewsite/static/js/main.a63ed5a9.chunk.js.map",
+  "static/js/1.11951cc8.chunk.js": "/mynewsite/static/js/1.11951cc8.chunk.js",
+  "static/js/1.11951cc8.chunk.js.map": "/mynewsite/static/js/1.11951cc8.chunk.js.map",
+  "runtime~main.js": "/mynewsite/static/js/runtime~main.0f79e97e.js",
+  "runtime~main.js.map": "/mynewsite/static/js/runtime~main.0f79e97e.js.map",
+  "static/css/main.b69d007c.chunk.css.map": "/mynewsite/static/css/main.b69d007c.chunk.css.map",
+  "static/media/index.css": "/mynewsite/static/media/KGGirlOnFire.69a14def.ttf",
+  "index.html": "/mynewsite/index.html",
+  "precache-manifest.322b459c9852aba88140422d45a0b2cb.js": "/mynewsite/precache-manifest.322b459c9852aba88140422d45a0b2cb.js",
+  "service-worker.js": "/mynewsite/service-worker.js"
 }
