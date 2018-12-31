@@ -72,12 +72,12 @@ self.__precacheManifest = [
     "url": "/mynewsite/static/media/kia.4f0492db.png"
   },
   {
-    "revision": "69a14def870214bb9966387450a815ec",
-    "url": "/mynewsite/static/media/KGGirlOnFire.69a14def.ttf"
-  },
-  {
     "revision": "1c4049859fa4acc51ce8d8fdeaaa0bc8",
     "url": "/mynewsite/static/media/pinkwatercolor.1c404985.jpg"
+  },
+  {
+    "revision": "69a14def870214bb9966387450a815ec",
+    "url": "/mynewsite/static/media/KGGirlOnFire.69a14def.ttf"
   },
   {
     "revision": "99b674d348a5f709897aca9c92e22fb1",
