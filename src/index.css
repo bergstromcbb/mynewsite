@@ -54,18 +54,26 @@ p {
 .name {
   padding-top: 55px;
   padding-bottom: 65px;
-  width: 75%;
-  margin-left: 10rem;
   color: #e26a8d;
   text-align: center;
   font-size: 5rem;
-  /* float: right; */
   font-style: bold;
   font-family: "KG Girl On Fire";
   /* text-shadow: -1px -1px 18px white, 1px -1px 18px white, -1px 1px 18px white, 1px 1px 18px white; */
 }
+.about {
+    padding-top: 55px;
+    margin-left: 10rem;
+    padding-bottom: 15px;
+    color: #e26a8d;
+    font-size: 4rem;
+    font-style: bold;
+    font-family: "KG Girl On Fire";
+    /* text-shadow: -1px -1px 18px white, 1px -1px 18px white, -1px 1px 18px white, 1px 1px 18px white; */
+}
 body {
   margin: 0;
+  min-width: 700px;
 }
 div.header div {
   font-family: "KG Girl On Fire";
@@ -75,13 +83,18 @@ div.header div {
   letter-spacing: 2px;
   font-style: normal;
 }
+
+@media only screen and (min-width: 700px) {
+  body {
+      }
+}
 div.header {
   background-image: url(./images/pinkwatercolor.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 300%;
   background-color: #e26a8d;
-  width: 100%;
+  /* width: 195%; */
   height: 92px
   }
 div.header div a {
@@ -89,20 +102,9 @@ div.header div a {
   /* font-weight: bold; */
   text-decoration: none;
   padding: 30px;
+  /* width: 100%; */
   display: inline-block;
 }
-.content {
-  background-color: #FFF;
-  padding: 20px;
-}
-.content h2 {
-  padding: 0;
-  margin: 0;
-}
-.content div {
-  margin-bottom: 10px;
-}
-
 .active {
   background-color: hsla(0, 0%, 100%, 0.6);
   color: #e26a8d !important;
@@ -137,11 +139,19 @@ div.header div a {
   color: darkslategray;
 }
 
+.p-25 {
+  padding: 25px;
+}
+
 .aboutlist {
   padding-left: 25px;
   font-family: 'Thasadith', sans-serif;
   font-size: 20px;
   color: darkslategray;
+}
+
+.threequartwidth {
+  width: 75%;
 }
 
 .aboutListItem {
@@ -151,7 +161,7 @@ div.header div a {
 
 li {
   text-decoration: none;
-  font-size: 1.5vw;
+  /* font-size: 1.5vw; */
   font-weight: 600;
 }
 
@@ -165,65 +175,16 @@ ul {
   margin-bottom: 0.5em;
 }
 
-.bar {
-  float: left;
-  font-family: "KG Girl On Fire";
-  font-size: 28px;
-  margin: 0;
-  padding: 0;
-}
-
-.baritself {
-  list-style-type: none;
-  overflow: hidden;
-  background-color: #e26a8d;
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.topbar {
-  display: block;
-  color: white;
-  font-size: 2.75vw;
-  text-align: center;
-  -webkit-transition: background-color 4s;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-
-/* .active {
-  background-color: #f2b1c4;
-  color: #707070;
-} */
-
-.topgraphic {
-  width: 100%;
-  z-index: -1;
-}
-
-.bottombar {
-  position: fixed;
-  bottom: 0;
-  z-index: -1;
-  width: 100%;
-}
-
 .fillertext {
   text-align: left;
   font-family: 'Thasadith', sans-serif;
   line-height: 1.25;
   font-weight: 650;
-  font-size: 1.5vw;
+  font-size: 1rem;
 }
 
 .resumefillertext {
-  font-size: 2vw;
+  font-size: 1rem;
   font-weight: 500;
   padding: 20px 0px 20px 0px;
   font-family: 'Thasadith', sans-serif;
@@ -242,15 +203,13 @@ li a:hover {
 }
 
 .containeroverall {
-  /* width: 75%; */
   text-align: left;
   margin-left: 10rem;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
 }
 
 .leftcolumn {
   width: 30%;
+  min-width: 214px;
   text-align: left;
   background-color: mistyrose;
   padding: 15px;
@@ -265,7 +224,7 @@ li a:hover {
 
 .designer {
   font-family: "KG Girl On Fire";
-  font-size: 2.5vw;
+  font-size: 2rem;
   letter-spacing: 2px;
   font-weight: bold;
   margin-top: 8px;
@@ -290,10 +249,10 @@ h2 {
   font-family: "KG Girl On Fire";
   font-weight: bold;
   color: #e26a8d;
-  margin-top: 1vw;
+  margin-top: 1rem;
   letter-spacing: 2px;
   margin-bottom: 0.25em;
-  font-size: 2.6vw;
+  font-size: 2rem;
 }
 
 h1 {
@@ -310,7 +269,9 @@ ul {
 }
 
 .bullet {
+  font-size: 1.5rem;
   color: #e26a8d;
+  padding: 0px 5px 0px 5px;
 }
 
 a {

@@ -14,7 +14,7 @@ class Main extends Component {
   render() {
     return (
         <HashRouter>
-        <div>
+        <div id="navbar">
             <div className="flex-container header">
               <div id="logo">
                 <NavLink exact to="/">
@@ -25,7 +25,7 @@ class Main extends Component {
               <div><NavLink to="/portfolio">Portfolio</NavLink></div>
               <div><NavLink to="/resume">Resume</NavLink></div>          
             </div>
-          <div className="content">
+          <div className="">
               <Route exact path="/" component={Home}/>
                 <Route path="/stuff" component={Stuff}/>
                 <Route path="/resume" component={Resume}/>
