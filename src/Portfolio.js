@@ -23,7 +23,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                             <p className="project">Kia Motors</p>
                             <a href="https://kia.com">
-                            <img src={ kia } alt="CB LOGO" width="230"/>
+                            <img src={ kia } alt="CB LOGO" width="240"/>
                             </a>
                             <p className="box7">
                             </p>
@@ -31,7 +31,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                             <p className="project">Chrysler OnDemand</p>
                             <a href="https://chryslerondemandsmart.com">
-                            <img src={ chrysler } alt="CB LOGO" width="230"/>
+                            <img src={ chrysler } alt="CB LOGO" width="240"/>
                             </a>
                             <p className="box7">
                             </p>
@@ -39,7 +39,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                             <p className="project">Amplifield Mail</p>
                             <a href="https://amplifiedmail.com">
-                            <img src={ amplified } alt="CB LOGO" width="230"/>
+                            <img src={ amplified } alt="CB LOGO" width="240"/>
                             </a>
                             <p className="box7">
                             </p>

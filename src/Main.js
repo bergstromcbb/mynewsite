@@ -21,9 +21,9 @@ class Main extends Component {
                   <img src={ logo } alt="CB LOGO"/>
                 </NavLink>
               </div>
-              <div><NavLink to="/stuff">About Me</NavLink></div>
-              <div><NavLink to="/portfolio">Portfolio</NavLink></div>
-              <div><NavLink to="/resume">Resume</NavLink></div>          
+              <div className="navfont"><NavLink to="/stuff">About Me</NavLink></div>
+              <div className="navfont"><NavLink to="/portfolio">Portfolio</NavLink></div>
+              <div className="navfont"><NavLink to="/resume">Resume</NavLink></div>          
             </div>
           <div className="">
               <Route exact path="/" component={Home}/>
@@ -31,6 +31,7 @@ class Main extends Component {
                 <Route path="/resume" component={Resume}/>
                 <Route path="/portfolio" component={Portfolio}/>                
           </div>
+          <div className="bottomheader"></div>
         </div>
         </HashRouter>
     );

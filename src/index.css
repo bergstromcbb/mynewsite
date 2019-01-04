@@ -84,15 +84,29 @@ div.header div {
   font-style: normal;
 }
 
+div.bottomheader {
+  background-image: url(./images/pinkwatercolor.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 145%;
+  background-color: #e26a8d;
+  /* width: 195%; */
+  height: 52px;
+  margin-top: 35px;
+}
+
 @media only screen and (min-width: 700px) {
   body {
       }
+}
+.navfont {
+  font-weight: 600;
 }
 div.header {
   background-image: url(./images/pinkwatercolor.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 300%;
+  background-size: 145%;
   background-color: #e26a8d;
   /* width: 195%; */
   height: 92px
@@ -235,6 +249,7 @@ ul {
 .resumename {
   font-size: 3em;
   font-family: "KG Girl On Fire";
+  letter-spacing: 3px;
 }
 
 h3 {

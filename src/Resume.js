@@ -20,10 +20,8 @@ class Resume extends Component {
                 <h2 className="heading">CONTACT</h2>
                 <span className="fillertext">christina.d.bergstrom@gmail.com</span>
                 <br />
-                <br />
 
                 <h2 className="heading">SKILLS</h2>
-                <br />
                 <ul className="fillertext">
                     <li>Photoshop CS</li>
                     <li>Illustrator CS</li>
@@ -43,9 +41,7 @@ class Resume extends Component {
                     <li>Sketch</li>
                     <li>Zeplin</li>
                 </ul>
-                <br />
                 <h2 className="heading">EXPERTISE</h2>
-                <br />
                 <ul className="fillertext">
                     <li>Front-end Developer Project Management</li>
                     <li>Social Media</li>
@@ -62,9 +58,7 @@ class Resume extends Component {
                     <li>Time Management</li>
                     <li>Pixel-level Design</li>
                 </ul>
-                <br />
                 <h2 className="heading">EDUCATION</h2>
-                <br />
                 <ul className="fillertext">
                     <li>GRAND CIRCUS</li>
                     <li>Front-End Developer</li>
