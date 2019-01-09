@@ -24,7 +24,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                             <p className="project">Kia Motors</p>
                             <a href="https://kia.com">
-                            <img src={ kia } alt="CB LOGO" width="240"/>
+                            <img src={ kia } alt="KIA" className="shadow" width="240"/>
                             </a>
                             <p className="box7">
                             </p>
@@ -32,7 +32,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                             <p className="project">Chrysler OnDemand</p>
                             <a href="https://chryslerondemandsmart.com">
-                            <img src={ chrysler } alt="CB LOGO" width="240"/>
+                            <img src={ chrysler } alt="OnDemand" className="shadow" width="240"/>
                             </a>
                             <p className="box7">
                             </p>
@@ -40,7 +40,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                             <p className="project">Amplifield Mail</p>
                             <a href="https://amplifiedmail.com">
-                            <img src={ amplified } alt="CB LOGO" width="240"/>
+                            <img src={ amplified } alt="Amplified Mail" className="shadow" width="240"/>
                             </a>
                             <p className="box7">
                             </p>
@@ -48,7 +48,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                             <p className="project">what's the Weather</p>
                             <a href="https://bergstromcbb.github.io/weatherApp/">
-                            <img src={ weather } alt="Weather App" width="240"/>
+                            <img src={ weather } alt="Weather App" className="shadow" width="240"/>
                             </a>
                             <p className="box7">
                             </p>
@@ -56,7 +56,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                             <p className="project">FoosBall</p>
                             <a href="https://foosball-scores.herokuapp.com">
-                            <img src={ foosball } alt="CB LOGO" width="240"/>
+                            <img src={ foosball } alt="FoosBall" className="shadow" width="240"/>
                             </a>
                             <p className="box7">
                             </p>
@@ -64,7 +64,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                             <p className="project">RecipeCook</p>
                             <a href="https://recipecook.herokuapp.com">
-                            <img src={ recipecook } alt="CB LOGO" width="240"/>
+                            <img src={ recipecook } alt="RecipeCook" className="shadow" width="240"/>
                             </a>
                             <p className="box7">
                             </p>
@@ -72,7 +72,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                         <p className="project">Designated Survivor</p>
                         <a href="https://bergstromcbb.github.io/Bergstrom/Bergstrom_Bootstrap">
-                        <img src={ designatedsurvivor } alt="CB LOGO" width="240"/>
+                        <img src={ designatedsurvivor } alt="Fan Site" className="shadow" width="240"/>
                         </a>
                         <p className="box7">
                         </p>
@@ -80,7 +80,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                         <p className="project">Theater App</p>
                         <a href="https://bergstromcbb.github.io/midterm_project">
-                        <img src={ grandcircustheaters } alt="Theatre App" width="240"/>    
+                        <img src={ grandcircustheaters } alt="Theatre App" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
                         </p>
@@ -88,7 +88,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                         <p className="project">Mill's Grocery</p>
                         <a href="https://bergstromcbb.github.io/lab_8_bonus">
-                        <img src={ grocery } alt="Mills Grocery" width="240"/>    
+                        <img src={ grocery } alt="Mills Grocery" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
                         </p>
@@ -96,7 +96,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                         <p className="project">is it or not</p>
                         <a href="https://bergstromcbb.github.io/codechallenge4">
-                        <img src={ isitornot } alt="isitornot" width="240"/>    
+                        <img src={ isitornot } alt="isitornot" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
                         </p>
@@ -104,7 +104,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                         <p className="project">Mushy Madlibs</p>
                         <a href="https://bergstromcbb.github.io/lab_15_madlibs">
-                        <img src={ madlibs } alt="Mushy Madlibs" width="240"/>    
+                        <img src={ madlibs } alt="Mushy Madlibs" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
                         </p>
@@ -112,7 +112,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                         <p className="project">Animals & Nature</p>
                         <a href="https://bergstromcbb.github.io/lab_14/#/cat">
-                        <img src={ angularRouting } alt="Animals and Nature" width="240"/>    
+                        <img src={ angularRouting } alt="Animals and Nature" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
                         </p>
@@ -120,7 +120,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                         <p className="project">To Do List</p>
                         <a href="https://bergstromcbb.github.io/reddit_lab">
-                        <img src={ todo } alt="To do list" width="240"/>    
+                        <img src={ todo } alt="To do list" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
                     </p>
@@ -128,7 +128,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                         <p className="project">Decorating Words</p>
                         <a href="https://bergstromcbb.github.io/lab_13/">
-                        <img src={ wordwithdec } alt="Decorating Words" width="240"/>    
+                        <img src={ wordwithdec } alt="Decorating Words" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
                         </p>
@@ -136,7 +136,7 @@ class Portfolio extends Component {
                     <section className="portheight">
                         <p className="project">It's that time of Year</p>
                         <a href="https://lab-22.herokuapp.com/">
-                        <img src={ balls } alt="That time of year" width="240"/>    
+                        <img src={ balls } alt="That time of year" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
                         </p>
