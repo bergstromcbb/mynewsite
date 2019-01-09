@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/wordwithdec.bc975d5c.png"
   },
   {
-    "revision": "aa350fbc76c59c0e9d88",
-    "url": "/static/css/main.5c0a6c32.chunk.css"
+    "revision": "683cbfcd6e2778e95826",
+    "url": "/static/css/main.944fb2f3.chunk.css"
   },
   {
     "revision": "029d48554137167cb4f5",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/todo.5ea06522.png"
   },
   {
-    "revision": "aa350fbc76c59c0e9d88",
-    "url": "/static/js/main.aa350fbc.chunk.js"
+    "revision": "683cbfcd6e2778e95826",
+    "url": "/static/js/main.683cbfcd.chunk.js"
   },
   {
     "revision": "37243de9ebb13eb7a4304096fae5817f",
@@ -76,15 +76,15 @@ self.__precacheManifest = [
     "url": "/static/media/weather.ddff0789.png"
   },
   {
-    "revision": "69a14def870214bb9966387450a815ec",
-    "url": "/static/media/KGGirlOnFire.69a14def.ttf"
-  },
-  {
     "revision": "1c4049859fa4acc51ce8d8fdeaaa0bc8",
     "url": "/static/media/pinkwatercolor.1c404985.jpg"
   },
   {
-    "revision": "18aa4c6d6f938560817fadf83bf5ef9c",
+    "revision": "69a14def870214bb9966387450a815ec",
+    "url": "/static/media/KGGirlOnFire.69a14def.ttf"
+  },
+  {
+    "revision": "9016766c0490395f7369bbb44e278760",
     "url": "/index.html"
   }
 ];
