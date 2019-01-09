@@ -13,6 +13,7 @@ import recipecook from "./images/recipecook.jpg";
 import chrysler from "./images/chrysler7.png";
 import amplified from "./images/amplifiedTemplates.png";
 import kia from "./images/kia.png";
+import weather from "./images/weather.png";
 
 class Portfolio extends Component {
   render() {
@@ -44,6 +45,14 @@ class Portfolio extends Component {
                             <p className="box7">
                             </p>
                     </section>      
+                    <section className="portheight">
+                            <p className="project">what's the Weather</p>
+                            <a href="https://bergstromcbb.github.io/weatherApp/">
+                            <img src={ weather } alt="Weather App" width="240"/>
+                            </a>
+                            <p className="box7">
+                            </p>
+                    </section>
                     <section className="portheight">
                             <p className="project">FoosBall</p>
                             <a href="https://foosball-scores.herokuapp.com">
