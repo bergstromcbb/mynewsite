@@ -45,7 +45,7 @@ p {
 }
 
 .portheight {
-  height: 230px;
+  height: 240px;
 }
 
 #logo img {
@@ -59,7 +59,6 @@ p {
   font-size: 5rem;
   font-style: bold;
   font-family: "KG Girl On Fire";
-  /* text-shadow: -1px -1px 18px white, 1px -1px 18px white, -1px 1px 18px white, 1px 1px 18px white; */
 }
 .about {
     padding-top: 55px;
@@ -69,7 +68,6 @@ p {
     font-size: 4rem;
     font-style: bold;
     font-family: "KG Girl On Fire";
-    /* text-shadow: -1px -1px 18px white, 1px -1px 18px white, -1px 1px 18px white, 1px 1px 18px white; */
 }
 body {
   margin: 0;
@@ -99,10 +97,6 @@ div.bottomheader {
   box-shadow: 0px 0px 15px 5px #C1C1C1;
 }
 
-@media only screen and (min-width: 700px) {
-  body {
-      }
-}
 .navfont {
   font-weight: 600;
 }
@@ -306,7 +300,15 @@ a {
   margin-bottom: 0px;
   font-size: 3em;
 }
-
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+  .portheight {
+    width: 100%;
+    text-align: center;
+  }
+}
 
 /* media queries*/
 
