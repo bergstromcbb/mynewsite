@@ -1,12 +1,18 @@
 import React, { Component } from "react";
- 
+import me from './images/me.jpg';
+
 class Stuff extends Component {
   render() {
     return (
       <div>
-        <div className="about">A little bit about me</div>
+        <div className="about" style={{paddingTop: 0}}>
+          <section className="padding-25">
+            <img src={ me } alt="twitter" width="300px"/>
+          </section>
+          A little bit about me
+        </div>
         <div className="home-text">
-          I am a creative mother of one amazing 16 year old high school Junior. 
+          {/* I am a creative mother of one amazing 16 year old high school Junior.  */}
           Four years ago I was talked into a clojure bridge workshop in Detroit.  That day changed my future.
           I went home and plotted about how I was going to make the career change I now knew Ineeded to make.  I 
           started my career in web development and then took the path of least resistance.  In 2016, I went to 
@@ -22,12 +28,12 @@ class Stuff extends Component {
               <li className="aboutListItem">Student Affinity Group at Grand Circus</li>
               <li className="aboutListItem">The new Detroit Chapter of Women Who Code</li>
               <li className="aboutListItem">Moms who Code and Can</li>
-              <li className="aboutListItem">Mentoring new female developers</li>
-              <li className="aboutListItem">Speaking at conferences</li>
-              <li className="aboutListItem">Helping advocate for LGBTQIA and Female or Female identifying developers 
-              in my community</li>
-              <li className="aboutListItem">Showing people at all ages it is never too late to follow your dreams</li>
-              <li className="aboutListItem">Showing my kiddo that ANYTHING is possible</li>
+              <li className="aboutListItem">Mentoring new developers</li>
+              {/* <li className="aboutListItem">Speaking at conferences</li> */}
+              {/* <li className="aboutListItem">Helping advocate for LGBTQIA and Female or Female identifying developers  */}
+              {/* in my community</li> */}
+              {/* <li className="aboutListItem">Showing people at all ages it is never too late to follow your dreams</li> */}
+              {/* <li className="aboutListItem">Showing my kiddo that ANYTHING is possible</li> */}
             </ul>
            </div>
             Happy Day!

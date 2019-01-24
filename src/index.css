@@ -35,22 +35,49 @@ p {
 
 .port-title {
   font-size: 40px;
+  text-align: center;
   padding-top: 20px;
-  /* padding-bottom: 20px; */
+  padding-bottom: 20px;
   color: #e26a8d;
-  /* margin-left: 35px; */
+  margin-left: 35px;
   font-style: bold;
   font-family: "KG Girl On Fire";
   text-align: left;
 }
+.portheight> p {
+  margin-top: 10px;
+  text-align: center;
+}
 
 .portheight {
-  height: 240px;
+  height: 300px;
 }
 
-#logo img {
-  height: 100%;
+.project{
+font-weight: bold;
 }
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer{
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+  justify-content: flex-end;
+}
+
+.footer-item {
+  margin-top: 11px;
+  padding: 0px 15px 0px 15px;
+}
+
 .name {
   padding-top: 55px;
   padding-bottom: 65px;
@@ -60,19 +87,34 @@ p {
   font-style: bold;
   font-family: "KG Girl On Fire";
 }
+
+.padding-25 {
+  padding: 25px;
+}
+
 .about {
     padding-top: 55px;
     margin-left: 10rem;
     padding-bottom: 15px;
     color: #e26a8d;
+    text-align: center;
+    width: 75%;
     font-size: 4rem;
     font-style: bold;
     font-family: "KG Girl On Fire";
 }
-body {
-  margin: 0;
+html, body {
+  margin: 0px 0px 0px 0px;
   min-width: 700px;
+  height: 100%;
 }
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 div.header div {
   font-family: "KG Girl On Fire";
   font-size: 2rem;
@@ -88,8 +130,7 @@ div.bottomheader {
   background-position: center;
   background-size: 145%;
   background-color: #e26a8d;
-  /* width: 195%; */
-  height: 52px;
+  height: 60px;
   margin-top: 35px;
 }
 .shadow {
@@ -106,16 +147,17 @@ div.header {
   background-position: center;
   background-size: 145%;
   background-color: #e26a8d;
-  /* width: 195%; */
-  height: 92px
+  height: 92px;
+  margin: 0px;
   }
 div.header div a {
   color: black;
-  /* font-weight: bold; */
   text-decoration: none;
   padding: 30px;
-  /* width: 100%; */
   display: inline-block;
+  height: 10px;
+  padding-top: 11px;
+  margin-top: 20px;
 }
 .active {
   background-color: hsla(0, 0%, 100%, 0.6);

@@ -14,25 +14,24 @@ class Main extends Component {
   render() {
     return (
         <HashRouter>
-        <div id="navbar">
+        <div id="navbar" className="content">
             <div className="flex-container header">
               <div id="logo">
                 <NavLink exact to="/">
                   <img src={ logo } alt="CB LOGO"/>
                 </NavLink>
               </div>
-              <div className="navfont"><NavLink to="/stuff">About Me</NavLink></div>
-              <div className="navfont"><NavLink to="/portfolio">Portfolio</NavLink></div>
-              <div className="navfont"><NavLink to="/resume">Resume</NavLink></div>          
+              <div className="navfont navbuttona"><NavLink to="/stuff">About Me</NavLink></div>
+              <div className="navfont navbuttona"><NavLink to="/portfolio">Portfolio</NavLink></div>
+              <div className="navfont navbuttona"><NavLink to="/resume">Resume</NavLink></div>          
             </div>
-          <div className="">
-              <Route exact path="/" component={Home}/>
-                <Route path="/stuff" component={Stuff}/>
-                <Route path="/resume" component={Resume}/>
-                <Route path="/portfolio" component={Portfolio}/>                
+            <div className="">
+                <Route exact path="/" component={Home}/>
+                  <Route path="/stuff" component={Stuff}/>
+                  <Route path="/resume" component={Resume}/>
+                  <Route path="/portfolio" component={Portfolio}/>                
+            </div>
           </div>
-          <div className="bottomheader"></div>
-        </div>
         </HashRouter>
     );
   }

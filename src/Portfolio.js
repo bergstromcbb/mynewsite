@@ -27,6 +27,7 @@ class Portfolio extends Component {
                             <img src={ kia } alt="KIA" className="shadow" width="240"/>
                             </a>
                             <p className="box7">
+                            2018
                             </p>
                     </div>
                     <div className="portheight">
@@ -35,6 +36,7 @@ class Portfolio extends Component {
                             <img src={ chrysler } alt="OnDemand" className="shadow" width="240"/>
                             </a>
                             <p className="box7">
+                            2017-2018
                             </p>
                     </div>
                     <div className="portheight">
@@ -43,6 +45,7 @@ class Portfolio extends Component {
                             <img src={ amplified } alt="Amplified Mail" className="shadow" width="240"/>
                             </a>
                             <p className="box7">
+                            2017-2018
                             </p>
                     </div>      
                     <div className="portheight">
@@ -51,6 +54,7 @@ class Portfolio extends Component {
                             <img src={ weather } alt="Weather App" className="shadow" width="240"/>
                             </a>
                             <p className="box7">
+                            2018
                             </p>
                     </div>
                     <div className="portheight">
@@ -59,6 +63,7 @@ class Portfolio extends Component {
                             <img src={ foosball } alt="FoosBall" className="shadow" width="240"/>
                             </a>
                             <p className="box7">
+                            2018
                             </p>
                     </div>      
                     <div className="portheight">
@@ -67,6 +72,7 @@ class Portfolio extends Component {
                             <img src={ recipecook } alt="RecipeCook" className="shadow" width="240"/>
                             </a>
                             <p className="box7">
+                            2016
                             </p>
                     </div>
                     <div className="portheight">
@@ -83,6 +89,7 @@ class Portfolio extends Component {
                         <img src={ grandcircustheaters } alt="Theatre App" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
+                        2016
                         </p>
                     </div>
                     <div className="portheight">
@@ -91,6 +98,7 @@ class Portfolio extends Component {
                         <img src={ grocery } alt="Mills Grocery" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
+                        Bootcamp 2016
                         </p>
                     </div>
                     <div className="portheight">
@@ -99,6 +107,7 @@ class Portfolio extends Component {
                         <img src={ isitornot } alt="isitornot" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
+                        Bootcamp 2016
                         </p>
                     </div>
                     <div className="portheight">
@@ -107,6 +116,7 @@ class Portfolio extends Component {
                         <img src={ madlibs } alt="Mushy Madlibs" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
+                        Bootcamp 2016
                         </p>
                     </div>
                     <div className="portheight">
@@ -115,15 +125,17 @@ class Portfolio extends Component {
                         <img src={ angularRouting } alt="Animals and Nature" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
+                        Bootcamp 2016
                         </p>
                     </div>
                     <div className="portheight">
                         <p className="project">To Do List</p>
-                        <a href="https://bergstromcbb.github.io/reddit_lab">
+                        <a href="https://bergstromcbb.github.io/lab_12">
                         <img src={ todo } alt="To do list" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
-                    </p>
+                        Bootcamp 2016
+                        </p>
                     </div>
                     <div className="portheight">
                         <p className="project">Decorating Words</p>
@@ -131,6 +143,7 @@ class Portfolio extends Component {
                         <img src={ wordwithdec } alt="Decorating Words" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
+                        Bootcamp 2016
                         </p>
                     </div>
                     <div className="portheight">
@@ -139,6 +152,7 @@ class Portfolio extends Component {
                         <img src={ balls } alt="That time of year" className="shadow" width="240"/>    
                         </a>
                         <p className="box7">
+                        Bootcamp 2016
                         </p>
                     </div>
       </div>
