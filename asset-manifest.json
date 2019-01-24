@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.18080041.chunk.css",
-  "main.js": "/static/js/main.9e935ec8.chunk.js",
-  "main.js.map": "/static/js/main.9e935ec8.chunk.js.map",
+  "main.js": "/static/js/main.11857f7c.chunk.js",
+  "main.js.map": "/static/js/main.11857f7c.chunk.js.map",
   "static/js/1.0b6ad31d.chunk.js": "/static/js/1.0b6ad31d.chunk.js",
   "static/js/1.0b6ad31d.chunk.js.map": "/static/js/1.0b6ad31d.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -28,6 +28,6 @@
   "static/media/index.css": "/static/media/KGGirlOnFire.69a14def.ttf",
   "static/css/main.18080041.chunk.css.map": "/static/css/main.18080041.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.86f2a0927390a15d015e74bee5b72ff2.js": "/precache-manifest.86f2a0927390a15d015e74bee5b72ff2.js",
+  "precache-manifest.85d9e0602213ad6354aa72058002afa3.js": "/precache-manifest.85d9e0602213ad6354aa72058002afa3.js",
   "service-worker.js": "/service-worker.js"
 }

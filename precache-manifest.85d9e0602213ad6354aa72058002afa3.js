@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/balls.37243de9.png"
   },
   {
-    "revision": "9e935ec81a57bd0cc38c",
+    "revision": "11857f7cdab2d26347dd",
     "url": "/static/css/main.18080041.chunk.css"
   },
   {
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/static/media/wordwithdec.bc975d5c.png"
   },
   {
-    "revision": "9e935ec81a57bd0cc38c",
-    "url": "/static/js/main.9e935ec8.chunk.js"
+    "revision": "11857f7cdab2d26347dd",
+    "url": "/static/js/main.11857f7c.chunk.js"
   },
   {
     "revision": "29d56182f6d0d3667acd422bc170a7e4",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/static/media/KGGirlOnFire.69a14def.ttf"
   },
   {
-    "revision": "b83829c49c218852316bfb253c9fe249",
+    "revision": "7e199ed075b96ed7124cfd23735c1508",
     "url": "/index.html"
   }
 ];
